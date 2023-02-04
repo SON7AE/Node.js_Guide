@@ -1,0 +1,8 @@
+6.1 익스프레스 프로젝트 시작하기
+
+- 항상 package.json을 제일 먼저 생성해야 한다.
+- package.json을 생성해주는 npm init 명령어를 콘솔에서 호출해 단계적으로 내용물을 입력해도 되고,
+npm init -y를 입력해 파일을 만든 뒤 내용을 수정해도 된다.
+- package.json 내 scripts 부분에 start 속성은 잊지 말고 넣어줘야 한다. nodemon app을 하면 app.js를 nodemon으로 실행한다는 뜻이다.
+- nodemon 모듈로 서버를 자동으로 재시작한다.
+- nodemon은 개발용으로만 사용할 것을 권장한다. 배포 후에는 서버 코드가 빈번하게 변경될 일이 없으므로 nodemon을 사용하지 않아도 된다.
